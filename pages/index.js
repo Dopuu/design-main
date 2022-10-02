@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Card from '../components/card'
+import Graph from '../components/graph'
+import History from '../components/history'
 import List from '../components/list'
 import Navbar from '../components/navbar'
 import Sidebar from '../components/sidebar'
@@ -26,8 +28,8 @@ export default function Home() {
           </div>
         </div>
         <div className='col-start-2 px-12'>
-          <div className='w-[700px] h-64 bg-black ml-auto '>
-              <h1 className='text-white'>graph</h1>
+          <div className='w-[700px] h-64  ml-auto '>
+              <Graph/>
           </div>
         </div>
         <div className='col-start-1 px-12 ml-96 mr-auto'>
@@ -35,9 +37,9 @@ export default function Home() {
               <List/>
           </div>
         </div>
-        <div className='col-start-2 px-12 '>
-          <div className='w-[700px] h-96 bg-black ml-auto '>
-              <h1 className='text-white'>history</h1>
+        <div className='col-start-2 px-12 mt-[85px]'>
+          <div className='w-[700px] h-[290px]  ml-auto'>
+              <History/>
           </div>
         </div>
       </div>
