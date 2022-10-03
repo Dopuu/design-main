@@ -20,6 +20,7 @@ export default function Card() {
                     <h1 className="text-[18px] font-inriasans text-black -rotate-90 font-semibold tracking-[4px]">Celkovo</h1>
                 </div>
             </div>
+            
         </div>
     )
 }
