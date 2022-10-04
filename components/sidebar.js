@@ -8,7 +8,7 @@ export default function Sidebar() {
   return (
     <div className="fixed top-0 left-0 h-screen w-80 m-0
                     flex flex-col
-                    bg-slate-50 text-white items-center">
+                    bg-slate-50 text-white items-center desktop2:hidden desktop:visible desktop3:hidden">
       <h1 className="mt-10 text-[38px] font-inder text-black text-center font-bold">Nepreberači</h1>
 
       <div className="mt-10 space-y-1">

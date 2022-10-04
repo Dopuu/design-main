@@ -2,9 +2,9 @@ import { FiSearch } from 'react-icons/fi';
 export default function Navbar() {
     return (
         <>
-            <div className="navbar bg-base-100 my-8 px-12">
+            <div className="navbar bg-base-100 my-8 px-12 transition ease-in-out">
                 <div className="flex-1">
-                    <h1 className="text-[38px] font-inder ml-96 font-bold">Vitaj, Kristian👋</h1>
+                    <h1 className="text-[38px] font-inder desktop3:ml-[-12px] desktop2:ml-[52px] desktop:ml-96 font-bold transition-all">Vitaj, Kristian👋</h1>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="flex flex-row form-control mr-32 w-96 rounded-[8px] bg-gray-100 outline outline-gray-100">
