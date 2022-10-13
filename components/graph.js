@@ -42,7 +42,7 @@ const Graph = () => {
         }
     }
     return (
-        <div className='desktop3:w-[600px] h-[200px]'>
+        <div className='desktop3:w-[600px] h-[200px] desktop10:w-[450px]'>
             <Line data={data} options={options}></Line>
         </div>
     )

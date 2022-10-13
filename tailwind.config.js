@@ -17,7 +17,10 @@ module.exports = {
 
       'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
-      'desktop7': {'max': '1195px'},
+      'desktop10': {'max': '760px'},
+      'desktop9': {'max': '850px', 'min': '761px'},
+      'desktop8': {'max': '1120px', 'min': '851px'},
+      'desktop7': {'max': '1195px', 'min': '1121px'},
       'desktop6': {'max': '1220px', 'min': '1196px'},
       'desktop5': {'max': '1256px', 'min': '1221px'},
       'desktop4': {'max': '1400px', 'min': '1257px'},
